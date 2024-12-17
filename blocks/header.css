@@ -1,0 +1,12 @@
+.header {
+  margin-top: 45px;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header_image {
+  width: 173px;
+  height: 33px;
+}
