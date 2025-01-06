@@ -1,7 +1,22 @@
-.footer{
+.footer {
   margin: 67px 0 60px;
+  width: 895px;
 }
 
-.footer__description{
+.footer__description {
   color: #545454;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 885px) {
+  .footer {
+    margin: 50px 0 36px;
+    width: 282px;
+  }
+
+  .footer__description {
+    font-size: 14px;
+    line-height: 16.94px;
+  }
 }
