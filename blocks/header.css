@@ -1,12 +1,29 @@
 .header {
   margin-top: 45px;
   height: 74px;
+  width: 100%;
+  max-width: 895px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.header_image {
+.header__image {
   width: 173px;
   height: 33px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 885px) {
+  .header{
+    margin-top: 28px;
+    height: 56x;
+    width: 100%;
+    gap: 32px;
+  }
+
+  .header__image {
+    margin-left: 28px;
+    width: 126px;
+    height: 24px;
+  }
 }
