@@ -1,15 +1,15 @@
 /* Abrir el popUp */
 const buttonPopUP = document.querySelector('.intro__button-edit');
-const popUP = document.querySelector('.popup__background');
+const popUP = document.querySelector('.popup');
 
 /**Tomar los datos de informacion */
 const nombre = document.querySelector('.intro__name');
 const about = document.querySelector('.intro__about');
 
 /**Tomar los imput de edicion y boton de guardar*/
-const nameInput = document.querySelector('.popup-edit__input-name');
-const aboutInput = document.querySelector('.popup-edit__input-about');
-const saveButton = document.querySelector('.popup-edit__button-save')
+const nameInput = document.querySelector('.popup__edit__input-name');
+const aboutInput = document.querySelector('.popup__edit__input-about');
+const saveButton = document.querySelector('.popup__edit__button-save')
 
 
 function colorButtonSave() {
@@ -18,7 +18,7 @@ function colorButtonSave() {
   } else {
     saveButton.classList.remove('active');
   }
-}
+};
 
 // Escuchar el evento 'input' en ambos campos
 nameInput.addEventListener('input', colorButtonSave);

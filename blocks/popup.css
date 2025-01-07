@@ -1,5 +1,5 @@
 /*POP UP de edición*/
-.popup__background {
+.popup{
   position: fixed;
   top: 0;
   left: 0;
@@ -12,11 +12,11 @@
   align-items: center;
 }
 
-.popup__background.active {
+.popup.active {
   visibility: visible;
 }
 
-.popup {
+.popup__foreground{
   display: flex;
   flex-direction: column;
   width: 540px;
@@ -31,7 +31,7 @@
 .popup__button-close:hover {
   fill: rgba(255, 255, 255, 0.6);
 }
-.popup-edit {
+.popup__edit {
   background: white;
   padding: 35px;
   width: 430px;
@@ -42,14 +42,14 @@
   border-radius: 10px;
 }
 
-.popup-edit__title {
+.popup__edit__title {
   font-weight: 900;
   background-color: white;
   color: black;
   margin-bottom: 30px;
 }
 
-.popup-edit__input {
+.popup__edit__input {
   color: black;
   background-color: white;
   height: 30px;
@@ -57,11 +57,11 @@
   border-block-end: 1px solid #c4c4c4 ;
 }
 
-.popup-edit__input::placeholder {
+.popup__edit__input::placeholder {
   color: #c4c4c4;
 }
 
-.popup-edit__button-save {
+.popup__edit__button-save {
   background-color: white;
   color: #c4c4c4;
   height: 50px;
@@ -69,12 +69,12 @@
   margin-top: auto;
 }
 
-.popup-edit__button-save.active{
+.popup__edit__button-save.active{
   background-color: black;
   color: white;
 }
 
-.popup-edit__button-save:hover {
+.popup__edit__button-save:hover {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
