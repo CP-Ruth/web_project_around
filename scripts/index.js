@@ -7,9 +7,9 @@ const nombre = document.querySelector('.intro__name');
 const about = document.querySelector('.intro__about');
 
 /**Tomar los imput de edicion y boton de guardar*/
-const nameInput = document.querySelector('.popup__edit__input-name');
-const aboutInput = document.querySelector('.popup__edit__input-about');
-const saveButton = document.querySelector('.popup__edit__button-save')
+const nameInput = document.querySelector('.popup__input-name');
+const aboutInput = document.querySelector('.popup__input-about');
+const saveButton = document.querySelector('.popup__edit-button');
 
 
 function colorButtonSave() {

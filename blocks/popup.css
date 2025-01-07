@@ -42,14 +42,14 @@
   border-radius: 10px;
 }
 
-.popup__edit__title {
+.popup__title {
   font-weight: 900;
   background-color: white;
   color: black;
   margin-bottom: 30px;
 }
 
-.popup__edit__input {
+.popup__input {
   color: black;
   background-color: white;
   height: 30px;
@@ -57,11 +57,11 @@
   border-block-end: 1px solid #c4c4c4 ;
 }
 
-.popup__edit__input::placeholder {
+.popup__input::placeholder {
   color: #c4c4c4;
 }
 
-.popup__edit__button-save {
+.popup__edit-button{
   background-color: white;
   color: #c4c4c4;
   height: 50px;
@@ -69,12 +69,12 @@
   margin-top: auto;
 }
 
-.popup__edit__button-save.active{
+.popup__edit-button.active{
   background-color: black;
   color: white;
 }
 
-.popup__edit__button-save:hover {
+.popup__edit-button:hover {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
