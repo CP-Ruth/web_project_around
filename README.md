@@ -3,9 +3,9 @@
 
 ## Despliegue del Proyecto
 Puedes ver el proyecto desplegado en GitHub Pages a través del siguiente enlace:
+https://cp-ruth.github.io/web_project_around/
 
-
-##Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - HTML5
 - CSS
