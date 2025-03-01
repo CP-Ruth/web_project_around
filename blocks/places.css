@@ -11,6 +11,12 @@
   flex-direction: column;
   height: 360px;
   width: 285px;
+  position: relative;
+}
+
+.place__image{
+  height: 285px;
+  border-radius: 10px 10px 0 0;
 }
 
 .place__info {
@@ -32,6 +38,19 @@
   overflow: hidden;
   font-size: 24px;
   font-weight: 900;
+}
+
+.place__delete{
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 18px; /* Espacio desde arriba */
+  right: 15px; /* Espacio desde la derecha */
+  fill: #ffffff;
+}
+
+.place__delete:hover{
+  fill: rgba(255, 255, 255, 0.6);
 }
 
 .place__like {
